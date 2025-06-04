@@ -1,0 +1,27 @@
+{
+  "name": "nave",
+  "version": "1.0.0",
+  "description": "Reto de API Nave a la deriva",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc -b",
+    "start": "node dist/index.js",
+    "dev": "npx tsc -w",
+    "lint": "npx eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/becarrillo/Nave-a-la-deriva"
+  },
+  "author": "Brando Eli Carrillo Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/becarrillo/Nave-a-la-deriva/issues"
+  },
+  "homepage": "https://github.com/becarrillo/Nave-a-la-deriva#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "typescript": "^5.8.3"
+  }
+}
